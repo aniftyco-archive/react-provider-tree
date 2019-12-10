@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "skipLibCheck": true,
+    "module": "esnext",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "lib": ["dom", "es2019"],
+    "target": "es2015",
+    "rootDir": "./src",
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*"]
+}

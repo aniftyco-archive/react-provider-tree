@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`react-provider-tree should render the tree of providers 1`] = `
+<div>
+  <div
+    name="provider-a"
+  >
+    <div
+      name="provider-b"
+    >
+      <div
+        name="provider-c"
+      >
+        <div>
+          Application
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

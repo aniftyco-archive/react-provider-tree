@@ -1,0 +1,41 @@
+{
+  "name": "react-provider-tree",
+  "description": "Break out of provider tree hell.",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": "aniftyco/react-provider-tree",
+  "author": {
+    "name": "Nifty Development, LLC",
+    "email": "support@aniftyco.com",
+    "url": "https://aniftyco.com"
+  },
+  "contributors": [
+    {
+      "name": "Josh Manders",
+      "url": "https://twitter.com/joshmanders"
+    }
+  ],
+  "files": [
+    "./dist/"
+  ],
+  "scripts": {
+    "build": "tsc --build",
+    "prepublishOnly": "tsc --build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.17",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.3"
+  }
+}
