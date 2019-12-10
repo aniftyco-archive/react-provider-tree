@@ -1,7 +1,7 @@
 {
   "name": "react-provider-tree",
   "description": "Break out of provider tree hell.",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "repository": "aniftyco/react-provider-tree",
@@ -20,8 +20,9 @@
     "./dist/"
   ],
   "scripts": {
+    "prebuild": "rimraf dist/",
     "build": "tsc --build",
-    "prepublishOnly": "tsc --build",
+    "prepublishOnly": "rimraf dist/ && tsc --build",
     "test": "jest"
   },
   "devDependencies": {
@@ -35,6 +36,7 @@
     "prettier": "^1.19.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "rimraf": "^3.0.0",
     "ts-jest": "^24.2.0",
     "typescript": "^3.7.3"
   }
