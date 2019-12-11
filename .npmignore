@@ -1,5 +1,0 @@
-src/
-tests
-*.js
-tsconfig.json
-yarn.lock
