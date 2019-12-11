@@ -16,9 +16,6 @@
       "url": "https://twitter.com/joshmanders"
     }
   ],
-  "files": [
-    "./dist/"
-  ],
   "scripts": {
     "prebuild": "rimraf dist/",
     "build": "tsc --build",
