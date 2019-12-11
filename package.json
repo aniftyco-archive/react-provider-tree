@@ -1,7 +1,7 @@
 {
   "name": "react-provider-tree",
   "description": "Break out of provider tree hell.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "repository": "aniftyco/react-provider-tree",
